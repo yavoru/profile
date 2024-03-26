@@ -958,7 +958,7 @@ hr.style1:before {
     }
 
     #container01.columns > .wrapper > .inner > * {
-        padding: calc(var(--gutters) * 0.5) 0 !important;
+        padding: calc(var(--gutters) * 0.5) 0 !important; 
     }
 
     #container01.columns > .wrapper > .inner > *:last-child {
