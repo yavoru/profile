@@ -929,10 +929,15 @@ hr.style1:before {
     }
 
     #container01 > .wrapper > .inner {
-        width:max-content;
         --gutters: 2rem;
         --padding-horizontal: 2rem;
         --padding-vertical: 3rem;
+    }
+
+    .container > .wrapper:hover
+    {
+        transition-delay: 0s;
+        height:650px;
     }
 
     #container01.columns > .wrapper > .inner {
@@ -1017,6 +1022,16 @@ hr.style1:before {
         height: auto;
         position: relative;
         width: auto;
+    }
+}
+
+@media (max-height: 600px)
+{
+    .container > .wrapper:hover
+    {
+        transition-delay: 0s;
+        height:500px;
+        width:900px;
     }
 }
 
