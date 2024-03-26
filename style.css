@@ -929,6 +929,7 @@ hr.style1:before {
     }
 
     #container01 > .wrapper > .inner {
+        width:max-content;
         --gutters: 2rem;
         --padding-horizontal: 2rem;
         --padding-vertical: 3rem;
